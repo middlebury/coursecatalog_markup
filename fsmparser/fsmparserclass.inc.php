@@ -1,4 +1,4 @@
-<?
+<?php
 /*
 
 Finite State Machine Parser class.
@@ -103,4 +103,3 @@ class FSMParser {
  }
 
 }
-?>

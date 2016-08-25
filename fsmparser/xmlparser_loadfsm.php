@@ -1,4 +1,4 @@
-<?
+<?php
 /*
  FSM Parser demo: the simple XML parser (using LoadFSMFile).
 */
@@ -34,4 +34,3 @@ $parser->LoadFSMFile("xmlparser_loadfsm.fsm");
 //---------Run the parser
 $parser->ParseFile("example.xml","CDATA");
 
-?>

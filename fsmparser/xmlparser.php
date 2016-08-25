@@ -1,4 +1,4 @@
-<?
+<?php
 /*
  FSM Parser demo: the simple XML parser.
 */
@@ -46,4 +46,4 @@ $parser->FSM('/\/?>/','return EndTag($STRING);','CDATA','IN_TAG');
 
 //---------Run the parser
 $parser->ParseFile("example.xml","CDATA");
-?>
+
